@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer-table {
+            background-color: #f0f0f0;
+        }
+        .inner-table-1 {
+            background-color: #d0d0d0;
+        }
+        .inner-table-2 {
+            background-color: #e0e0e0;
+        }
+        .inner-table-3 {
+            background-color: #c0c0c0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla compleja</h1>
+    <hr>
+    <table border="1" class="outer-table">
+        <tr>
+           <td>1</td>
+           <td>2</td>
+           <td>
+            <table border="1" class="inner-table-1">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </table>
+           </td>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>
+            <table border="1" class="inner-table-2">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </td>
+        <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+                <table border="1" class="inner-table-3">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>
